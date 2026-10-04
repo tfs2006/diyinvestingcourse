@@ -131,7 +131,7 @@ export default function PrivacyPage() {
 
               <h3>6.3 Contact Us</h3>
               <p>
-                If you have questions about your personal information or privacy rights, please contact us at <a href="mailto:contact@diyinvestingcourse.com">contact@diyinvestingcourse.com</a>.
+                If you have questions about your personal information or privacy rights, please contact us at <a href="mailto:divyinvestingcourse@4ourmedia.com">divyinvestingcourse@4ourmedia.com</a>.
               </p>
             </section>
 
@@ -155,7 +155,7 @@ export default function PrivacyPage() {
                 <li>Request deletion of your personal information</li>
               </ul>
               <p>
-                To exercise these rights, please contact us at <a href="mailto:contact@diyinvestingcourse.com">contact@diyinvestingcourse.com</a>.
+                To exercise these rights, please contact us at <a href="mailto:divyinvestingcourse@4ourmedia.com">divyinvestingcourse@4ourmedia.com</a>.
               </p>
             </section>
 
@@ -173,7 +173,7 @@ export default function PrivacyPage() {
                 <li>Right to object to processing</li>
               </ul>
               <p>
-                To exercise these rights, please contact us at <a href="mailto:contact@diyinvestingcourse.com">contact@diyinvestingcourse.com</a>.
+                To exercise these rights, please contact us at <a href="mailto:divyinvestingcourse@4ourmedia.com">divyinvestingcourse@4ourmedia.com</a>.
               </p>
             </section>
 
@@ -189,7 +189,7 @@ export default function PrivacyPage() {
                 <strong>Last Updated:</strong> October 2026
               </p>
               <p>
-                If you have questions about this Privacy Policy, please contact us at <a href="mailto:contact@diyinvestingcourse.com">contact@diyinvestingcourse.com</a>.
+                If you have questions about this Privacy Policy, please contact us at <a href="mailto:divyinvestingcourse@4ourmedia.com">divyinvestingcourse@4ourmedia.com</a>.
               </p>
             </section>
           </article>

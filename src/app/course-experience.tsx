@@ -186,6 +186,7 @@ export default function CourseExperience() {
           <a href="#course">The course</a>
           <a href="#practice">The calculator</a>
           <a href="#glossary">Glossary</a>
+          <a href="/store">Store</a>
           <button className="nav-search" type="button" onClick={() => setSearchOpen(true)} aria-label="Search course topics"><Icon name="search" size={17} /></button>
           <button className="header-share" type="button" onClick={shareProgress}><Icon name="share" size={16} /> Share the course</button>
         </nav>
@@ -193,7 +194,7 @@ export default function CourseExperience() {
           <button className="icon-button" type="button" aria-label="Search lessons" onClick={() => setSearchOpen(true)}><Icon name="search" /></button>
           <button className="icon-button" type="button" aria-label={mobileMenuOpen ? "Close navigation" : "Open navigation"} aria-expanded={mobileMenuOpen} onClick={() => setMobileMenuOpen((open) => !open)}><Icon name={mobileMenuOpen ? "close" : "menu"} /></button>
         </div>
-        {mobileMenuOpen && <nav className="mobile-nav-panel" aria-label="Mobile navigation"><a href="#course" onClick={() => setMobileMenuOpen(false)}>The course</a><a href="#practice" onClick={() => setMobileMenuOpen(false)}>The calculator</a><a href="#glossary" onClick={() => setMobileMenuOpen(false)}>Glossary</a><button type="button" onClick={shareProgress}>Share this course <Icon name="share" size={16} /></button></nav>}
+        {mobileMenuOpen && <nav className="mobile-nav-panel" aria-label="Mobile navigation"><a href="#course" onClick={() => setMobileMenuOpen(false)}>The course</a><a href="#practice" onClick={() => setMobileMenuOpen(false)}>The calculator</a><a href="#glossary" onClick={() => setMobileMenuOpen(false)}>Glossary</a><a href="/store" onClick={() => setMobileMenuOpen(false)}>Store</a><button type="button" onClick={shareProgress}>Share this course <Icon name="share" size={16} /></button></nav>}
       </header>
 
       {searchOpen && <div className="search-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget) setSearchOpen(false); }}>
@@ -336,7 +337,7 @@ export default function CourseExperience() {
         <section className="share-cta"><div className="share-cta-left"><span className="eyebrow">GOOD KNOWLEDGE GROWS WHEN IT’S SHARED</span><h2>Bring your people.<br /><em>Build your own plan.</em></h2><p>Send someone a no-hype, no-paywall place to learn the basics. Better money conversations start somewhere.</p><button type="button" className="share-cta-button" onClick={shareProgress}><Icon name="share" size={17} /> Share the course <Icon name="arrow" size={16} /></button></div><div className="share-quote-card"><div className="quote-mark">“</div><p>Learn the rules.<br />Question the noise.<br /><strong>Own your next move.</strong></p><div className="quote-footer"><span>DIY INVESTING COURSE</span><span>FREE · NO ACCOUNT</span></div><div className="share-watermark">D/I</div></div></section>
       </main>
 
-      <footer className="site-footer"><a className="brand footer-brand" href="#home"><span className="brand-mark"><span /></span><span className="brand-name"><strong>DIY</strong><small>INVESTING COURSE</small></span></a><p className="footer-disclaimer">For education only. Not financial, investment, tax, or legal advice. All investing involves risk, including loss of principal. No returns are promised. Check current official sources and consider a qualified professional for personal decisions.</p><div className="footer-meta"><span>Built for the long game · © {new Date().getFullYear()} DIY Investing Course</span><span><Icon name="lock" size={13} /> Your progress stays on your device</span><a href="/sitemap.xml">Sitemap</a></div></footer>
+      <footer className="site-footer"><a className="brand footer-brand" href="#home"><span className="brand-mark"><span /></span><span className="brand-name"><strong>DIY</strong><small>INVESTING COURSE</small></span></a><p className="footer-disclaimer">For education only. Not financial, investment, tax, or legal advice. All investing involves risk, including loss of principal. No returns are promised. Check current official sources and consider a qualified professional for personal decisions.</p><div className="footer-meta"><span>Built for the long game · © {new Date().getFullYear()} DIY Investing Course</span><span><Icon name="lock" size={13} /> Your progress stays on your device</span><a href="/store">Store</a><a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/disclaimer">Disclaimer</a><a href="/cookie-policy">Cookie policy</a><a href="/sitemap.xml">Sitemap</a></div></footer>
       {toast && <div className="toast-message" role="status" aria-live="polite"><span><Icon name="check" size={17} /></span>{toast}</div>}
     </div>
   );

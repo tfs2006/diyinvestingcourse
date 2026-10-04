@@ -237,7 +237,7 @@ export default function TermsPage() {
             <section>
               <h2>13. Contact Us</h2>
               <p>
-                If you have questions about these terms, please contact us at <a href="mailto:contact@diyinvestingcourse.com">contact@diyinvestingcourse.com</a>.
+                If you have questions about these terms, please contact us at <a href="mailto:divyinvestingcourse@4ourmedia.com">divyinvestingcourse@4ourmedia.com</a>.
               </p>
             </section>
 

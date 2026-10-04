@@ -102,7 +102,7 @@ export default async function LessonPage({ params }: PageProps) {
         </article>
         <aside className="deep-course-cta"><span className="deep-course-icon">{String(moduleIndex + 1).padStart(2, "0")}</span><div><span className="deep-cta-label">THE WHOLE COURSE · FREE · {Math.round(totalMinutes / 60)}+ HOURS</span><p>{courseModule.description}</p><Link href="/#course">Explore the full learning path <span>↗</span></Link></div></aside>
       </main>
-      <footer className="deep-footer"><Link href="/">DIY Investing Course</Link><span>For education only. Investing involves risk, including possible loss of principal.</span><Link href="/sitemap.xml">Sitemap</Link></footer>
+      <footer className="deep-footer"><Link href="/">DIY Investing Course</Link><span>For education only. Investing involves risk, including possible loss of principal.</span><div className="deep-footer-links"><Link href="/store">Store</Link><Link href="/terms">Terms</Link><Link href="/privacy">Privacy</Link><Link href="/disclaimer">Disclaimer</Link><Link href="/cookie-policy">Cookie policy</Link><Link href="/sitemap.xml">Sitemap</Link></div></footer>
     </div>
   );
 }

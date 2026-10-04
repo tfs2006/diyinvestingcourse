@@ -120,7 +120,7 @@ export default function DisclaimerPage() {
                 <strong>Last Updated:</strong> October 2026
               </p>
               <p>
-                If you have questions about this disclaimer, please contact us at <a href="mailto:contact@diyinvestingcourse.com">contact@diyinvestingcourse.com</a>.
+                If you have questions about this disclaimer, please contact us at <a href="mailto:divyinvestingcourse@4ourmedia.com">divyinvestingcourse@4ourmedia.com</a>.
               </p>
             </section>
           </article>
