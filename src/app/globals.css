@@ -17,8 +17,8 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 28px; }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; scroll-padding-top: 28px; font-size: 16px; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.7; -webkit-font-smoothing: antialiased; }
 button, input { font: inherit; }
 button { color: inherit; }
 a { color: inherit; text-decoration: none; }
@@ -382,14 +382,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .mobile-nav-actions { display: flex; align-items: center; gap: 2px; }
   .mobile-nav-actions .icon-button { width: 38px; height: 38px; }
   .mobile-nav-panel { position: absolute; top: calc(100% + 1px); left: 0; right: 0; padding: 12px 19px 17px; display: flex; flex-direction: column; background: #f9faf5; border-bottom: 1px solid #dfe4da; box-shadow: 0 12px 24px #142c2415; }
-  .mobile-nav-panel a, .mobile-nav-panel button { min-height: 43px; padding: 10px 2px; display: flex; justify-content: space-between; align-items: center; border: 0; border-bottom: 1px solid #e7eae2; background: transparent; color: #3c5643; text-align: left; font-size: 11px; font-weight: 650; }
+  .mobile-nav-panel a, .mobile-nav-panel button { min-height: 43px; padding: 10px 2px; display: flex; justify-content: space-between; align-items: center; border: 0; border-bottom: 1px solid #e7eae2; background: transparent; color: #3c5643; text-align: left; font-size: 1rem; font-weight: 650; }
   .hero-section { padding: 51px 22px 19px; }
   .hero-grid { grid-template-columns: 1fr; gap: 34px; min-height: auto; }
   .hero-copy { padding: 0; }
   .hero-copy h1 { margin: 17px 0 14px; font-size: clamp(55px, 14vw, 77px); }
-  .hero-lead { max-width: 510px; font-size: 13px; line-height: 1.7; }
+  .hero-lead { max-width: 510px; font-size: 1.06rem; line-height: 1.7; }
   .hero-cta-row { align-items: flex-start; flex-direction: column; gap: 16px; margin-top: 21px; }
-  .button-primary { padding: 13px 17px; font-size: 11px; }
+  .button-primary { padding: 13px 17px; font-size: 0.95rem; }
   .hero-proof { gap: 11px 15px; margin-top: 24px; font-size: 9px; }
   .hero-art { min-height: 310px; padding: 21px 22px 16px; }
   .hero-art::after { top: 52px; }
@@ -407,7 +407,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .course-section, .syllabus-section, .glossary-section { padding: 72px 20px; }
   .section-intro { align-items: flex-start; flex-direction: column; gap: 15px; }
   .section-intro h2 { font-size: 43px; }
-  .section-intro p { max-width: 510px; font-size: 10px; }
+  .section-intro p { max-width: 510px; font-size: 1rem; }
   .course-intro { margin-bottom: 27px; }
   .learner-layout { display: block; }
   .course-rail { display: none; position: static; max-height: none; overflow: visible; margin-bottom: 15px; }
@@ -424,14 +424,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .lesson-breadcrumb { gap: 5px; font-size: 7px; }
   .read-time { font-size: 7px; }
   .lesson-reader > h3 { margin-top: 20px; font-size: clamp(29px, 8vw, 37px); }
-  .lesson-deck { font-size: 11px; }
+  .lesson-deck { font-size: 1.04rem; }
   .takeaways-card { margin: 20px 0 24px; padding: 14px; }
   .takeaways-heading small { font-size: 9px; }
-  .takeaways-card li { font-size: 9px; }
+  .takeaways-card li { font-size: 0.96rem; }
   .lesson-section { margin-bottom: 22px; }
   .lesson-section-heading h4 { font-size: 17px; }
-  .lesson-section p { font-size: 10px; }
-  .lesson-bullets li { font-size: 9px; }
+  .lesson-section p { font-size: 1rem; }
+  .lesson-bullets li { font-size: 0.96rem; }
   .knowledge-check { margin-top: 25px; padding: 15px; }
   .knowledge-check h4 { font-size: 16px; }
   .quiz-option { font-size: 9px; }
@@ -468,6 +468,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .glossary-card p { font-size: 8px; }
   .resource-section { padding: 68px 20px; }
   .resource-intro h2 { font-size: 40px; }
+  .resource-intro > p { font-size: 1rem; }
   .resource-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 7px; }
   .resource-link { min-height: 59px; padding: 8px; gap: 6px; }
   .resource-icon { width: 24px; height: 24px; flex-basis: 24px; }
@@ -477,11 +478,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .faq-section { padding: 70px 20px 76px; grid-template-columns: 1fr; gap: 22px; }
   .faq-title { position: static; }
   .faq-title h2 { font-size: 43px; }
-  .faq-item summary { min-height: 55px; gap: 9px; font-size: 13px; }
+  .faq-item summary { min-height: 55px; gap: 9px; font-size: 1.05rem; }
   .faq-answer { padding-left: 26px; padding-right: 10px; }
-  .faq-answer p { font-size: 9px; }
+  .faq-answer p { font-size: 0.97rem; }
   .share-cta { min-height: auto; margin: 0 15px 66px; padding: 34px 24px; grid-template-columns: 1fr; gap: 27px; }
   .share-cta h2 { font-size: 38px; }
+  .share-cta-left > p { font-size: 1rem; }
   .share-quote-card { width: min(300px, 94%); justify-self: center; min-height: 186px; }
   .site-footer { padding: 30px 20px 18px; }
   .footer-meta { gap: 10px 14px; font-size: 7px; }
@@ -551,21 +553,21 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .deep-module-label { color: #739151; font-size: 8px; font-weight: 800; letter-spacing: .13em; }
 .deep-lesson-counter { margin-left: auto; color: #929b8e; font-size: 7px; letter-spacing: .12em; }
 .deep-article-header h1 { margin: 20px 0 12px; color: var(--ink-deep); font-size: clamp(38px, 6vw, 58px); line-height: 1.04; font-weight: 740; letter-spacing: -.065em; }
-.deep-deck { max-width: 600px; margin: 0; color: #657367; font-size: 14px; line-height: 1.8; }
+.deep-deck { max-width: 600px; margin: 0; color: #657367; font-size: 1.08rem; line-height: 1.8; }
 .deep-meta-row { margin-top: 20px; color: #889286; font-size: 7px; letter-spacing: .11em; font-weight: 750; }
 .deep-meta-row i { width: 3px; height: 3px; display: block; border-radius: 50%; background: #9bb27b; }
 .deep-takeaways { margin: 23px 0 35px; padding: 17px 19px; background: #f0f4eb; border-left: 3px solid #91aa69; }
 .deep-takeaways-label { color: #67834c; font-size: 8px; font-weight: 800; letter-spacing: .15em; }
 .deep-takeaways ul { margin: 11px 0 0; padding: 0; display: grid; gap: 9px; list-style: none; }
-.deep-takeaways li { display: flex; align-items: flex-start; gap: 8px; color: #465c49; font-size: 10px; line-height: 1.65; }
+.deep-takeaways li { display: flex; align-items: flex-start; gap: 8px; color: #465c49; font-size: 0.98rem; line-height: 1.65; }
 .deep-takeaways li > span { color: #77934f; font-weight: 800; }
 .deep-section { margin: 0 0 32px; }
 .deep-section-heading { display: flex; align-items: center; gap: 11px; margin-bottom: 11px; }
 .deep-section-heading > span { width: 24px; height: 24px; flex: 0 0 24px; display: grid; place-items: center; border-radius: 50%; background: #edf2e8; color: #70894e; font-family: var(--serif); font-size: 10px; }
 .deep-section-heading h2 { margin: 0; color: #294835; font-family: var(--serif); font-size: 22px; line-height: 1.25; font-weight: 600; letter-spacing: -.025em; }
-.deep-section > p { margin: 0 0 14px; color: #526157; font-size: 12px; line-height: 1.9; }
+.deep-section > p { margin: 0 0 14px; color: #526157; font-size: 1.03rem; line-height: 1.9; }
 .deep-bullets { margin: 12px 0 0; padding: 12px 18px 12px 34px; border: 1px solid #e9ede5; background: #f7f8f4; }
-.deep-bullets li { padding: 4px 0; color: #546458; font-size: 11px; line-height: 1.75; }
+.deep-bullets li { padding: 4px 0; color: #546458; font-size: 1rem; line-height: 1.75; }
 .deep-bullets li::marker { color: #8ba165; }
 .deep-actions { margin-top: 36px; padding: 22px; background: #f5f5ef; border: 1px solid #e7e9df; }
 .deep-quiz-label { display: flex; justify-content: space-between; gap: 10px; color: #72816e; font-size: 7px; font-weight: 800; letter-spacing: .12em; }
