@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Script from "next/script";
 import "./globals.css";
+import "./legal.css";
 
 const GA_ID = "G-D9S2Z5KWHR";
 
