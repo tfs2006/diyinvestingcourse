@@ -197,10 +197,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .full-lesson-link { display: inline-flex; align-items: center; gap: 5px; color: #6c7d6c; font-size: 10.8px; font-weight: 680; }
 .full-lesson-link:hover { color: #42633d; }
 .lesson-pagination { margin-top: 23px; padding-top: 15px; display: grid; grid-template-columns: 1fr 1fr; gap: 13px; border-top: 1px solid #e8eae3; }
-.pagination-button { min-width: 0; padding: 7px 0; display: flex; align-items: center; gap: 9px; border: 0; background: transparent; text-align: left; cursor: pointer; }
+.pagination-button { min-width: 0; width: 100%; padding: 7px 0; display: flex; align-items: center; gap: 9px; border: 0; background: transparent; text-align: left; cursor: pointer; }
 .pagination-button:disabled { opacity: .42; cursor: default; }
-.pagination-button > span:not(:first-child), .pagination-next > span:first-child { min-width: 0; display: flex; flex: 1; flex-direction: column; }
-.pagination-button > span:first-child { width: 28px; height: 28px; flex: 0 0 28px; display: grid; place-items: center; border: 1px solid #e1e6dc; border-radius: 50%; color: #648049; }
+.pagination-prev > span:last-child,
+.pagination-next > span:first-child { min-width: 0; display: flex; flex: 1; flex-direction: column; }
+.pagination-prev > span:first-child,
+.pagination-next > span:last-child { width: 28px; height: 28px; flex: 0 0 28px; display: grid; place-items: center; border: 1px solid #e1e6dc; border-radius: 50%; color: #648049; }
 .pagination-prev > span:first-child svg { transform: rotate(225deg); }
 .pagination-next > span:last-child svg { transform: rotate(45deg); }
 .pagination-button small { color: #92998e; font-size: 8.4px; letter-spacing: .12em; font-weight: 750; }
@@ -521,8 +523,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
   .lesson-reader { padding: 19px 15px 16px; }
   .lesson-reader-top { flex-direction: column; gap: 7px; }
   .lesson-pagination { grid-template-columns: 1fr; }
+  .pagination-button { width: 100%; }
   .pagination-next { justify-content: flex-end; }
-  .pagination-button strong { max-width: 210px; }
+  .pagination-button strong { max-width: 100%; white-space: normal; text-wrap: pretty; }
   .share-quote-card { padding: 20px; }
   .search-dialog-heading h2 { font-size: 18px; }
 }
