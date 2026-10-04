@@ -1,0 +1,73 @@
+# DIY Investing Course
+
+> A free, self-paced educational course about investing for yourself. The course has 27 lessons in 9 modules, an interactive glossary, a hypothetical compound-growth sandbox, browser-only progress tracking, and permanent shareable lesson pages. No account or email is required.
+
+## Canonical course
+- Home and interactive course: https://diyinvestingcourse.com/
+- Complete curriculum and FAQ: https://diyinvestingcourse.com/#curriculum
+- Searchable investing glossary: https://diyinvestingcourse.com/#glossary
+- Official-source resource library: https://diyinvestingcourse.com/#resources
+- XML sitemap: https://diyinvestingcourse.com/sitemap.xml
+
+## Curriculum and lessons
+### 01 — Start with your why
+- https://diyinvestingcourse.com/lessons/saving-vs-investing
+- https://diyinvestingcourse.com/lessons/goals-and-risk
+- https://diyinvestingcourse.com/lessons/investment-policy
+
+### 02 — Know the building blocks
+- https://diyinvestingcourse.com/lessons/assets-and-claims
+- https://diyinvestingcourse.com/lessons/brokerage-orders
+- https://diyinvestingcourse.com/lessons/funds-and-indexes
+
+### 03 — Build a portfolio that fits
+- https://diyinvestingcourse.com/lessons/diversification
+- https://diyinvestingcourse.com/lessons/asset-allocation
+- https://diyinvestingcourse.com/lessons/contributions-and-rebalancing
+
+### 04 — Research a business
+- https://diyinvestingcourse.com/lessons/read-a-10k
+- https://diyinvestingcourse.com/lessons/financial-statements
+- https://diyinvestingcourse.com/lessons/valuation-and-thesis
+
+### 05 — Bonds and cash
+- https://diyinvestingcourse.com/lessons/bond-prices-and-yields
+- https://diyinvestingcourse.com/lessons/bond-funds-and-ladders
+- https://diyinvestingcourse.com/lessons/cash-and-inflation
+
+### 06 — Accounts and tax awareness
+- https://diyinvestingcourse.com/lessons/retirement-account-map
+- https://diyinvestingcourse.com/lessons/tax-aware-investing
+- https://diyinvestingcourse.com/lessons/fees-and-diligence
+
+### 07 — Risk and resilience
+- https://diyinvestingcourse.com/lessons/risk-drawdowns
+- https://diyinvestingcourse.com/lessons/rates-inflation-cycles
+- https://diyinvestingcourse.com/lessons/behavior-and-scams
+
+### 08 — Wider markets and advanced tools
+- https://diyinvestingcourse.com/lessons/international-investing
+- https://diyinvestingcourse.com/lessons/alternatives-and-options
+- https://diyinvestingcourse.com/lessons/investment-due-diligence
+
+### 09 — Put it into practice
+- https://diyinvestingcourse.com/lessons/model-portfolio-frameworks
+- https://diyinvestingcourse.com/lessons/first-90-days
+- https://diyinvestingcourse.com/lessons/annual-investor-checkup
+
+## Authoritative primary sources
+- U.S. investor education and verification: https://www.investor.gov/
+- U.S. public-company filings: https://www.sec.gov/edgar/search-and-access
+- U.S. broker background checks: https://brokercheck.finra.org/
+- Current U.S. federal tax rules: https://www.irs.gov/
+- 2026 U.S. IRA and workplace-plan contribution-limit announcement: https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500
+- U.S. securities settlement (T+1): https://www.sec.gov/resources-for-investors/investor-alerts-bulletins/new-t1-settlement-cycle-what-investors-need-know-investor-bulletin
+- Deposit insurance information: https://www.fdic.gov/resources/deposit-insurance/
+- U.S. Treasury securities: https://www.treasurydirect.gov/
+- Federal Reserve economic data: https://fred.stlouisfed.org/
+
+## Important context
+- The material is general education, not individualized investment, tax, or legal advice and not a recommendation to buy or sell a security. Investing involves risk, including possible loss of principal. No returns are promised.
+- Most account, tax, and market-structure examples use U.S. rules. Readers elsewhere should consult their own regulator, tax authority, and account terms.
+- Contribution limits and laws change; the retirement-limit example is explicitly for 2026. Verify the relevant tax year with the current IRS source before acting.
+- The site provides educational frameworks rather than live market data, stock picks, or return forecasts. Browser-stored progress is optional, local to the visitor's device, and not tied to an account.
