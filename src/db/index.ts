@@ -3,22 +3,23 @@ import { Pool } from "pg";
 
 const databaseUrl = process.env.DATABASE_URL;
 
-if (!databaseUrl) {
-  throw new Error("DATABASE_URL is required");
-}
-
-const globalForDb = globalThis as typeof globalThis & {
-  __arenaNextJsPostgresqlPool?: Pool;
+const globalForDb = globalThis as unknown as {
+  __diyCoursePool?: Pool;
 };
 
-export const pool =
-  globalForDb.__arenaNextJsPostgresqlPool ??
-  new Pool({
-    connectionString: databaseUrl,
-  });
-
-if (process.env.NODE_ENV !== "production") {
-  globalForDb.__arenaNextJsPostgresqlPool = pool;
+function createDb() {
+  if (!databaseUrl) return null;
+  const pool =
+    globalForDb.__diyCoursePool ?? new Pool({ connectionString: databaseUrl });
+  if (process.env.NODE_ENV !== "production") {
+    globalForDb.__diyCoursePool = pool;
+  }
+  return drizzle(pool);
 }
 
-export const db = drizzle(pool);
+/**
+ * Optional Postgres connection. Null when DATABASE_URL is not set.
+ * The course stores progress in the visitor's browser (localStorage),
+ * so the site runs fully without a database.
+ */
+export const db = createDb();
